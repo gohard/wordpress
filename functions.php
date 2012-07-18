@@ -151,6 +151,8 @@ add_action('init', 'wpcx_register_custom_menu');
  
 function wpcx_register_custom_menu() {
 	register_nav_menu('footer_menu', 'Footer Menu');
+	register_nav_menu('footer_menu1', 'Footer Menu1');
+	register_nav_menu('footer_menu2', 'Footer Menu2');
 	register_nav_menu('nav_menu', 'Navigation Menu');
 }
 

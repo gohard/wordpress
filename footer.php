@@ -9,28 +9,28 @@
 	      
 	      <!-- footer link technology box -->
 	      <div class="footerTechBox">
-	        <p class="footertitle">Technologies</p>
-	        <div class="footerListView">
-	          <ul>
-	           <?php wp_nav_menu(array('theme_location'  => 'footer1', 'container' => false, 'fallback_cb' => 'wpcx_default_menu')); ?>
-	          </ul>
-	        </div>
-	      </div>
-	      <!-- footer link technology box -->
-	      <div class="footerTechBox">
 	        <p class="footertitle">Services</p>
 	        <div class="footerListView">
 	          <ul>
-	           <?php wp_nav_menu(array('theme_location'  => 'footer2', 'container' => false, 'fallback_cb' => 'wpcx_default_menu')); ?>
+	           <?php wp_nav_menu(array('theme_location'  => 'footer_menu', 'container' => false, 'fallback_cb' => 'wpcx_default_menu')); ?>
 	          </ul>
 	        </div>
 	      </div>
 	      <!-- footer link technology box -->
 	      <div class="footerTechBox">
-	        <p class="footertitle">Follow Us</p>
+	        <p class="footertitle">Domain Expertise</p>
+	        <div class="footerListView">
+	          <ul>
+	           <?php wp_nav_menu(array('theme_location'  => 'footer_menu1', 'container' => false, 'fallback_cb' => 'wpcx_default_menu')); ?>
+	          </ul>
+	        </div>
+	      </div>
+	      <!-- footer link technology box -->
+	      <div class="footerTechBox">
+	        <p class="footertitle">Technology</p>
 	        <div class="footerListView">
 	         <ul>
-	           <?php wp_nav_menu(array('theme_location'  => 'footer3', 'container' => false, 'fallback_cb' => 'wpcx_default_menu')); ?>
+	           <?php wp_nav_menu(array('theme_location'  => 'footer_menu1', 'container' => false, 'fallback_cb' => 'wpcx_default_menu')); ?>
 	          </ul>
 	        </div>
 	      </div>

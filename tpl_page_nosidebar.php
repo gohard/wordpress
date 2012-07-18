@@ -25,9 +25,8 @@ Template Name: No Sidebar
                         
                         <?php endwhile; endif;?>
 
-                        <?php comments_template(); ?>
+                        <?php //  comments_template(); ?>
                         
-                        <div class="wp-pagenavi"><?php wp_link_pages('before=Pages: &pagelink=<span>'%'</span>'); ?></div>
                         
                         <?php edit_post_link('Edit Post'); ?>
       

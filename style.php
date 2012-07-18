@@ -33,6 +33,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 margin: 0;
+margin-bottam:10px;
 padding: 0;
 border: 0;
 outline: 0;
@@ -979,6 +980,7 @@ font-style: italic;
 display: block !important;
 padding-bottom: 10px !important;
 line-height: 24px !important;
+font-size: 16px;
 }
 
 .content img {
@@ -998,8 +1000,6 @@ font-size: 11px;
 .post ol {
 list-style: decimal;
 margin: 15px 5px;
-border-top: 1px solid #CCC;
-border-bottom: 1px solid #CCC;
 padding: 10px 0px;
 }
 
@@ -1020,11 +1020,10 @@ margin: 0px 0px 5px 20px;
 }
 
 .post ul {
-list-style: disc;
-margin: 15px 5px;
-padding: 10px 0px;
-border-top: 1px solid #CCC;
-border-bottom: 1px solid #CCC;
+    font-size: 16px;
+    list-style: disc outside none;
+    margin: 4px 25px;
+    padding: 1px 0;
 }
 
 .post ul li ul {
@@ -2448,7 +2447,7 @@ p {
 	padding:0px;
 }
 .techpragraph {
-	font-size:14px;
+	font-size:16px;
 	line-height:20px;
 	color:#111;
 	text-align:justify;
